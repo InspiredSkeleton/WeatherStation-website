@@ -53,7 +53,7 @@ html {
 }
 
 .LinkText:visited {
-    color: #5C2B8C;
+    color: inherit;
 }
 
 .LinkText:hover {
@@ -71,10 +71,6 @@ html {
 }
 
 .PortTexClass:hover {
-    color: #F25D27;
-}
-
-#PortTex a:hover {
     color: #F25D27;
 }
 
