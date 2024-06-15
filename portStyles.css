@@ -11,7 +11,7 @@ body {
     align-items: flex-start;
     position: absolute;
     flex-wrap: wrap;
-    
+    color: #5C2B8C;
     gap: 2vw;
     row-gap: 0vh;
     margin: 0;
@@ -32,11 +32,11 @@ body {
     z-index: 2;
 }
 
-.HomeBut a:hover {
+.HomeBut:hover {
     color: #F25D27;
 }
 
-.HomeBut a:visited {
+.HomeBut:visited {
     color: inherit;
 }
 
@@ -51,11 +51,11 @@ body {
     z-index: 2;
 }
 
-.HomeBut2 a:hover {
+.HomeBut2:hover {
     color: #F25D27;
 }
 
-.HomeBut2 a:visited {
+.HomeBut2:visited {
     color: inherit;
 }
 
