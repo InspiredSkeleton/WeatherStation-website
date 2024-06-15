@@ -32,11 +32,11 @@ body {
     z-index: 2;
 }
 
-.HomeBut:hover {
+.HomeBut a:hover {
     color: #F25D27;
 }
 
-.HomeBut:visited {
+.HomeBut a:visited {
     color: inherit;
 }
 
@@ -51,11 +51,11 @@ body {
     z-index: 2;
 }
 
-.HomeBut2:hover {
+.HomeBut2 a:hover {
     color: #F25D27;
 }
 
-.HomeBut2:visited {
+.HomeBut2 a:visited {
     color: inherit;
 }
 
