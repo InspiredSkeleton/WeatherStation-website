@@ -37,7 +37,7 @@ body {
 }
 
 .HomeBut:visited {
-    color: #5C2B8C;
+    color: inherit;
 }
 
 .HomeBut2 {
@@ -56,7 +56,7 @@ body {
 }
 
 .HomeBut2:visited {
-    color: #5C2B8C;
+    color: inherit;
 }
 
 .shadowBox {
