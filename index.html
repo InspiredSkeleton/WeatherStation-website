@@ -9,9 +9,9 @@
   <meta property="og:description" content="Announcements for new Roblox releases plus links to all previous games and socials." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://theweatherstation.info" />
-  <meta property="og:image" content="/og-image.png" />
+  <meta property="og:image" content="/og-image.png?v=20250830-1" />
   <meta name="theme-color" content="#0f172a" />
-  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" href="/favicon.ico?v=20250830-1" />
   <style>
     :root {
       --bg: #0b1020; /* deep slate */
@@ -65,7 +65,7 @@
     @media (max-width: 1000px){ .grid{ grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 640px){ .grid{ grid-template-columns: 1fr; } }
     .game { background:#0b1228; border:1px solid #1e293b; border-radius:16px; overflow:hidden; display:flex; flex-direction:column; }
-    .game .thumb { aspect-ratio: 16/9; background:#111630 url('thumb-placeholder.jpg') center/cover no-repeat; border-bottom:1px solid #1e293b; }
+    .game .thumb { aspect-ratio: 16/9; background:#111630 url('thumb-placeholder.jpg?v=20250830-1') center/cover no-repeat; border-bottom:1px solid #1e293b; }
     .game .body { padding:14px; display:flex; flex-direction:column; gap:8px; }
     .game h3 { margin: 0; font-size: 18px; letter-spacing:.2px; }
     .game p { margin: 0; color:#a8b1c5; font-size: 14px; }
@@ -101,20 +101,15 @@
             </style>
       <div class="brand" aria-label="site brand">
         <div class="logo" aria-hidden="true">
-          <!-- weather vane icon -->
-           <img class="logo" src="Images/Icon.png" alt="A picture of a UFO">
-          <!-- <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a1 1 0 0 1 1 1v3.055a6.5 6.5 0 0 1 4.5 2.645l2.16-.72a1 1 0 0 1 1.29.95v3.14a1 1 0 0 1-.71.96l-6.74 2.1V21a1 1 0 1 1-2 0v-3.87l-6.74-2.1A1 1 0 0 1 3 13.07V9.93a1 1 0 0 1 1.29-.95l2.16.72A6.5 6.5 0 0 1 11 6.055V3a1 1 0 0 1 1-1Z"/></svg> -->
+           <img class="logo" src="Images/Icon.png?v=20250830-1" alt="A picture of a UFO">
         </div>
         <span>The Weather Station</span>
       </div>
       <nav class="nav" aria-label="primary">
-        <!-- <a class="btn" href="#games">Games</a> -->
-        <!-- <a class="btn" href="#socials">Socials</a> -->
         <a class="btn" href="https://www.roblox.com/users/19436521/profile" target="_blank" rel="noopener">Roblox Profile</a>
       </nav>
     </header>
 
-    <!-- Announcement bar: edit the text or set data-live="false" to hide -->
     <div id="announce" class="bar" data-live="true">
       <div class="pulse" aria-hidden="true"></div>
       <div>
@@ -131,66 +126,37 @@
           <span id="release-date">No release yet</span>
           <span id="release-status">Status: Cooking</span>
         </div>
-        <div class="cta">
-          <!-- <a id="play-link" class="btn primary" href="#" target="_blank" rel="noopener">Play on Roblox</a> -->
-          <!-- <a id="trailer-link" class="btn" href="#" target="_blank" rel="noopener">Watch Trailer</a> -->
-        </div>
+        <div class="cta"></div>
       </div>
       <div class="mock">
         <div class="badge">Preview: The Labyrinth Experience</div>
         <!-- Drop a 1200x750 promo image into /public and swap the src below -->
-        <img id="promo" src="Images/TempImage.png" alt="Latest release promo" style="max-width:100%; max-height:100%; object-fit:cover;" />
+        <img id="promo" src="Images/TempImage.png?v=20250830-1" alt="Latest release promo" style="max-width:100%; max-height:100%; object-fit:cover;" />
       </div>
     </section>
 
     <section id="games" class="section" aria-labelledby="grid-title">
       <h2 id="grid-title" style="margin:0 0 12px; font-size:22px; letter-spacing:.2px;">Previous Games</h2>
       <div class="grid" id="games-grid">
-        <!-- Example card (duplicate & edit): -->
-        <article class="game"><a class="thumb" href="https://www.roblox.com/games/103357428282106/build-a-nuke-factory-and-destroy-the-world-tycoon" 
+        <article class="game">
+          <a class="thumb" href="https://www.roblox.com/games/103357428282106/build-a-nuke-factory-and-destroy-the-world-tycoon" 
             target="_blank" 
             rel="noopener" 
             aria-label="Open game" 
             style="display:block; width:300px; aspect-ratio:16/9; border-radius:12px; overflow:hidden;">
-         
-           <img src="images/NukeGame.png" 
-                alt="Build a Nuke Factory and Destroy the World Tycoon" 
-                style="width:100%; height:100%; object-fit:cover; display:block; border-radius:inherit;">
-         </a></a>
+            <img src="images/NukeGame.png?v=20250830-1" 
+                 alt="Build a Nuke Factory and Destroy the World Tycoon" 
+                 style="width:100%; height:100%; object-fit:cover; display:block; border-radius:inherit;">
+          </a>
           
           <div class="body">
             <h3>Build a Nuke Factory & Destroy the World Tycoon</h3>
             <p>Nuke your own Grandma with illegally sourced nuclear missiles (Thank you Mr. Sir), all in the spirit of Capitalism!</p>
             <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:4px;">
               <a class="btn" href="https://www.roblox.com/games/103357428282106/build-a-nuke-factory-and-destroy-the-world-tycoon" target="_blank" rel="noopener">Play</a>
-              <!-- <a class="btn" href="https://www.youtube.com/@TheWeatherStation" target="_blank" rel="noopener">Dev‑Log</a> -->
             </div>
           </div>
         </article>
-
-        <!-- <article class="game">
-          <a class="thumb" href="https://www.roblox.com/games/0000000" target="_blank" rel="noopener" aria-label="Open game"></a>
-          <div class="body">
-            <h3>Bluetooth Benny’s Mini‑Mart</h3>
-            <p>Odd jobs, odd characters, and odder phone calls.</p>
-            <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:4px;">
-              <a class="btn" href="https://www.roblox.com/games/0000000" target="_blank" rel="noopener">Play</a>
-              <a class="btn" href="https://www.youtube.com/@TheWeatherStation" target="_blank" rel="noopener">Dev‑Log</a>
-            </div>
-          </div>
-        </article> -->
-
-        <!-- <article class="game">
-          <a class="thumb" href="https://www.roblox.com/games/0000000" target="_blank" rel="noopener" aria-label="Open game"></a>
-          <div class="body">
-            <h3>Mr. Sir’s Weather Station</h3>
-            <p>Survive the storm. Profit from the chaos.</p>
-            <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:4px;">
-              <a class="btn" href="https://www.roblox.com/games/0000000" target="_blank" rel="noopener">Play</a>
-              <a class="btn" href="https://www.youtube.com/@TheWeatherStation" target="_blank" rel="noopener">Dev‑Log</a>
-            </div>
-          </div>
-        </article> -->
       </div>
     </section>
 
@@ -198,8 +164,6 @@
       <h2 id="socials-title" style="margin:0 0 12px; font-size:22px; letter-spacing:.2px;">Follow & Connect</h2>
       <div class="socials">
         <a class="chip" href="https://www.youtube.com/@The_Weather_Station" target="_blank" rel="noopener">YouTube</a>
-        <!-- <a class="chip" href="https://discord.gg/" target="_blank" rel="noopener">Discord</a> -->
-        <!-- <a class="chip" href="https://twitter.com/" target="_blank" rel="noopener">X</a> -->
         <a class="chip" href="mailto:weatherstationmediarelations@gmail.com">Email</a>
       </div>
     </section>
@@ -212,16 +176,18 @@
 
   <script>
     // ---- QUICK CONFIG (edit and publish) ----
+    const VERSION = '20250830-1';
+
     const CONFIG = {
-      announceLive: true, // set to false to hide the green pulse bar
+      announceLive: true,
       announceText: "Updates will be posted here. Watch this space.",
       latest: {
         title: "Latest Release",
-        date: "", // e.g., "Aug 30, 2025"
-        status: "Status: Building", // e.g., "LIVE", "Playtest", etc.
+        date: "",
+        status: "Status: Building",
         playUrl: "https://www.roblox.com/games/0000000",
         trailerUrl: "https://youtu.be/",
-        promoSrc: "promo-placeholder.jpg" // put your promo image in the same folder
+        promoSrc: "promo-placeholder.jpg?v=" + VERSION
       }
     };
 
@@ -239,16 +205,14 @@
     const promo = document.getElementById('promo');
     const rDate = document.getElementById('release-date');
     const rStatus = document.getElementById('release-status');
-    if (CONFIG.latest.playUrl) play.href = CONFIG.latest.playUrl;
-    if (CONFIG.latest.trailerUrl) trailer.href = CONFIG.latest.trailerUrl;
-    if (CONFIG.latest.promoSrc) promo.src = CONFIG.latest.promoSrc;
-    if (CONFIG.latest.date) rDate.textContent = CONFIG.latest.date; else rDate.textContent = 'TBA';
-    if (CONFIG.latest.status) rStatus.textContent = CONFIG.latest.status;
+    if (play && CONFIG.latest.playUrl) play.href = CONFIG.latest.playUrl;
+    if (trailer && CONFIG.latest.trailerUrl) trailer.href = CONFIG.latest.trailerUrl;
+    if (promo && CONFIG.latest.promoSrc) promo.src = CONFIG.latest.promoSrc;
+    if (rDate) rDate.textContent = CONFIG.latest.date || 'TBA';
+    if (rStatus) rStatus.textContent = CONFIG.latest.status;
 
-    // Optional: UTM tagging for outbound links (so later analytics can read query params)
-    const utm = '?ref=theweatherstation.info';
-    [play, trailer, ...document.querySelectorAll('.game a.btn[href^="https://www.roblox.com"]')].forEach(a => {
-      if (!a) return;
+    // Optional: UTM tagging for outbound links
+    [...document.querySelectorAll('.game a.btn[href^="https://www.roblox.com"]')].forEach(a => {
       try { const u = new URL(a.href); u.search += (u.search ? '&' : '?') + 'ref=theweatherstation.info'; a.href = u.toString(); } catch(e){}
     });
   </script>
